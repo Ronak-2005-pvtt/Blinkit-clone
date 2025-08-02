@@ -6,8 +6,7 @@
     .navbar{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        z-index: 0;    
+        z-index: 1rem;    
         position: fixed;
         background-color: white;
         height: 4rem;
@@ -151,14 +150,7 @@
         display: flex;
     }
 
-    .smoke-img{
-        width: 10rem;
-        height: 10rem;
-        margin-left: 49rem;
-        margin-top: -10rem;
-        display: flex;
-        opacity: 0.5;
-    }
+    
 
     .box1{
         display: flex;
