@@ -150,7 +150,14 @@
         display: flex;
     }
 
-    
+    .smoke-img{
+        width: 10rem;
+        height: 10rem;
+        margin-left: 49rem;
+        margin-top: -10rem;
+        display: flex;
+        opacity: 0.5;
+    }
 
     .box1{
         display: flex;
