@@ -1,0 +1,529 @@
+    *{
+        
+        margin-top: 0%;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        z-index: 0;    
+        position: fixed;
+        background-color: white;
+        height: 4rem;
+    }
+
+    .name{
+        margin-left: 1.1rem;
+        margin-top: 0.5rem;
+        font-weight: 1000;
+        font-size: 2.3rem;
+    }
+
+    .yellow{
+    
+        color: rgb(252, 194, 3);
+    }
+
+    .green{
+        color: rgb(14, 156, 59);
+        margin-left: -0.5rem;
+    }
+
+    .location{
+        margin-left: 4rem;
+        margin-top: 0.6rem; 
+    }
+
+    .loc-bar-title{
+        font-size: 1.2rem;
+    }
+
+    .loc-bar{
+        font-size: 0.7rem;
+        margin-top: -1rem;
+    }
+
+    .dowm-arrow{
+        margin-top: 1.8rem;
+        font-size: 0.7rem;
+    }
+
+    .fa-magnifying-glass{
+        margin-left: -24.7rem;
+        margin-top: 0.6rem;
+    }
+
+    .search-input{
+        width: 25rem;
+        height: 2.4rem;
+        margin-left: 3rem;
+        margin-top: 0.6rem;
+        border-radius: 0.5rem;
+        border-color: rgba(224, 224, 224, 0.3);
+        padding-left: 1.5rem;
+    }
+
+    .login{
+        margin-left: 27rem;
+        margin-top: 1rem;
+        color: rgba(71, 71, 71,0.9);
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .cart-box{
+        margin-left: 3rem;
+        width: 6rem;
+        height: 2rem;
+        border: 2px solid black;
+        margin-top: 0.67rem;
+        display: flex;
+        border-radius: 0.3rem;
+        background-color: rgb(175, 183, 180);
+    }
+
+    .fa-cart-shopping{
+        padding-top: 0.5rem;
+        margin-left: 0.5rem;   
+        color: black;
+    }
+
+    .cart{
+    padding-left: 0.45rem;
+    margin-top: 0.4rem;
+    color: black;
+    }
+
+    .main-page{
+        margin:2rem;
+    }
+
+    .paan-box{
+        background-color: green;
+        width: 58.7rem;
+        height: 10rem;
+        border-radius: 1rem;
+        padding-left: 2rem;
+        margin-left: 1.8rem;
+    }
+
+    .paan-box-body-h1{
+        color: white;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+
+    .paan-box-body-h2{
+        color: white;
+        margin-top: -1.5rem;
+    }
+
+    .paan-box-body-button{
+        color: green;
+        border-radius: 0.3rem;
+    }
+
+    .paan-box-img{
+        margin-top: -3rem;
+    }
+
+    .card-img{
+        width: 11rem;
+        height: 5rem;
+        margin-left: 26rem;
+        margin-top: -3.5rem;
+    }
+
+    .wine-img{
+        width: 10rem;
+        height: 6rem;
+        margin-left: 36rem;
+        margin-top: -6rem;
+        display: flex;
+    }
+
+    .candle-img{
+        width: 10rem;
+        height: 6rem;
+        margin-left: 45rem;
+        margin-top: -5.7rem;
+        display: flex;
+    }
+
+    .smoke-img{
+        width: 10rem;
+        height: 10rem;
+        margin-left: 49rem;
+        margin-top: -10rem;
+        display: flex;
+        opacity: 0.5;
+    }
+
+    .box1{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 1.7rem;
+    }
+
+    .box1-card1{
+        width: 20rem;
+        height: 14rem;
+        color: white;
+        background-color: blueviolet;
+        border: 2px;
+        border-radius: 1rem;
+        padding-left: 0.8rem;
+        padding-top: 0.8rem;
+    }
+
+    .box1-card1:hover{
+        color: yellow;
+        background-color: aqua;
+    }
+
+    .box1-card1-button{
+        border-radius: 0.4rem;
+    }
+
+
+    .printer{
+        width: 10rem;
+        height: 12rem;
+        margin-left: 10rem;
+        margin-top: -12rem;
+        display: flex;
+    }
+
+    .box1-card2{
+        width: 20rem;
+        height: 14rem;
+        color: white;
+        background-color: blue;
+        border: 2px;
+        border-radius: 1rem;
+        padding-left: 0.8rem;
+        padding-top: 0.8rem;
+    }
+
+    .box1-card2:hover{
+        color: yellow;
+        background-color: aqua;
+    }
+
+    .box1-card2-button{
+        border-radius: 0.4rem;
+    }
+
+    .pharmacy{
+        width: 10rem;
+        height: 12rem;
+        margin-left: 10rem;
+        margin-top: -12rem;
+        display: flex;
+    }
+
+    .box1-card3{
+        width: 18rem;
+        height: 14rem;
+        color: white;
+        background-color: orangered;
+        border: 2px;
+        border-radius: 1rem;
+        padding-left: 0.8rem;
+        padding-top: 0.8rem;
+    }
+
+    .box1-card3:hover{
+        color: yellow;
+        background-color: aqua;
+    }
+
+    .box1-card3-button{
+        border-radius: 0.4rem;
+    }
+
+    .pet-care{
+        width: 10rem;
+        height: 12rem;
+        margin-left: 8rem;
+        margin-top: -12rem;
+        display: flex;
+    }
+
+    .box1,.box2,.box3,.box4,.box5,.box6{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    .box2-img,.box3-img{
+        border: 1px solid black;
+        border-color: rgba(225, 235, 226,0.4);
+        background-color: azure;
+        width: 8rem;
+        height: 7rem;
+    }
+
+    .box2-text,.box3-text,.box4-text,.box5.text,.box6.text{
+        text-align: center;
+        margin-top: 0.2rem;
+    }
+
+    .box2-heading{
+        margin-left: 2rem;
+    }
+
+    
+
+    .box4-heading,.box5-heading,.box6-heading{
+        margin-left: 1.2rem;
+    }
+
+    .box4-card,.box5-card,.box6-card{
+        border: 1px solid black;
+        border-color: rgba(225, 235, 226,0.4);
+        width: 10rem;
+        height: 16rem;
+    }
+
+    .box4-card:hover,.box5-card:hover,.box6-card:hover{
+        border-color: lightblue;
+    }
+
+    .box4-img,.box5-img,.box6-img{
+        width: 8rem;
+        height: 8rem;
+        margin-left: 1rem;
+    }
+
+
+    .time{
+        width: 2.8rem;
+        font-size: 0.6rem;
+        margin-left: 0.7rem;
+        border: 1px solid rgba(225, 235, 226,1);
+        background-color: white;
+        border-radius: 0.2rem;
+        margin-top: 0.2rem;
+    }
+
+    .milk-name{
+        margin-top: 0.4rem;
+        margin-left: 0.7rem;
+        color: black;
+        font-size: 0.8rem;
+    }
+
+    .quantity{
+        margin-top: 1.5rem;
+        margin-left: 0.7rem;
+        color: rgb(129, 130, 129,1);
+        font-size: 0.7rem;
+    }
+
+    .price{
+        font-size: 0.8rem;
+        margin-top: -1.22rem;
+        margin-left: 0.7rem;
+    }
+
+    .add{
+        font-size: 0.7rem;
+        margin-left: 6.3rem;
+        margin-top: 1rem;
+        width: 3rem;
+        height: 1.5rem;
+        background-color: rgba(136, 181, 140,0.2);
+        border: 1px solid rgba(136, 181, 140,1);
+        border-radius: 0.4rem;
+    }
+
+    .add:hover{
+        background-color: rgba(136, 181, 140,0.7)
+    }
+
+    .cards-heading{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 20rem;
+        
+    }
+
+    .card1{
+        height: 18rem;
+        width: 12rem;
+        border-radius: 1.5rem;
+        background-color: rgba(255, 255, 224,1);
+        border: 2px solid rgba(227, 191, 14,0.7);
+        text-align: center;
+    }
+
+    .card1:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+
+    .card2{
+        height: 18rem;
+        width: 12rem;
+        border: 2px solid rgba(235, 9, 152,0.2);
+        border-radius: 1.5rem;
+        background-color: rgba(235, 9, 152,0.2);
+        text-align: center;
+    }
+
+    .card2:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+
+    .card3{
+        height: 18rem;
+        width: 12rem;
+        border-radius: 1.5rem;
+        background-color: rgba(100, 91, 168,0.5);
+        text-align: center;
+        border: 2px solid rgba(100, 91, 168,0.5);
+    }
+
+    .card3:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+
+    .card4{
+        height: 18rem;
+        width: 12rem;
+        border-radius: 1.5rem;
+        background-color: rgba(235, 9, 152,0.2);
+        text-align: center;
+        border: 2px solid rgba(235, 9, 152,0.2);
+    }
+
+    .card4:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+
+    .blinkit,.zomato,.district,.HyperPure{
+        height: 6.5rem;
+        width: 7rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+
+    .blinkit-heading,.district-heading,.HyperPure-heading,.zomato-heading{
+        font-size: 1.2rem;
+        margin-top: 0.8rem;
+    }
+
+    .blinkit-heading-2,.district-heading-2,.HyperPure-heading-2,.zomato-heading-2{
+        font-size: 1rem;
+        color: rgba(28, 28, 28, 0.5);
+    }
+
+    .blinkit-p,.zomato-p,.district-p,.HyperPure-p{
+        color: rgba(28, 28, 28, 1);
+        font-size:0.9rem;
+        margin-top: 1.4rem;
+    }
+
+    .footer{
+        width: 90%;
+        height: 23rem;
+        background-color: black;
+        padding-top: 1rem;
+        padding-left: 8rem;
+        padding-bottom: 2rem;
+        margin-left: -1rem;
+        padding-right: 5rem;
+    }
+
+    .footer-heading{
+        color: white;
+        font-size: 2.8rem;   
+    }
+
+    .eternal{
+        color: white;
+        font-size: 0.6rem;
+        margin-top: 2rem;
+        padding-right: 8rem;
+    }
+
+    .social-links{
+        color: white;
+        font-size: 0.6rem;
+        margin-top: 2rem;
+        padding-right: 8rem;
+        justify-content: space-evenly;
+    }
+
+    .footer-text{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .fa-brands{
+        color: black;
+        border: 4px solid beige;
+        background-color: white;
+        border-radius: 1rem;
+        margin: 0.1rem;
+        
+    }
+
+    .link{
+        width: 8rem;
+        height: 3rem;
+        border-radius: 0.4rem;
+        background-color: black;
+        border: 2px solid white;
+        margin-top: 1rem;
+    }
+
+    .link:hover{
+        background-color: rgba(252, 194, 3,0.9);
+    }
+
+    .download-link{
+        font-size: 0.7rem;
+        margin-left: -0.9rem;
+        color: white;
+    }
+
+    .download-link-2{
+        margin-left: -0.2;
+        margin-top: -1rem;
+        color: white;
+    }
+
+    .app{
+        color: black;
+        height: 0.7rem;
+        border: 4px solid beige;
+        background-color: white;
+        border-radius: 1rem;
+        margin: 0.1rem;
+    }
+
+    .footer-para{
+        color: white;
+        font-size: 0.65rem;
+        text-align: center;
+        margin-right: 15rem;  
+    }
+
+    .hr{
+        width: 57rem;
+        margin-left: -3rem;
+        margin-top: 5rem;
+        color: rgba(255, 255, 255, 0.1);
+    }
+
