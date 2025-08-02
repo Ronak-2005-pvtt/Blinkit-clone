@@ -99,11 +99,12 @@
 
     .paan-box{
         background-color: green;
-        width: 58.7rem;
+        width: 95%;
+        max-width: 940px;
         height: 10rem;
         border-radius: 1rem;
         padding-left: 2rem;
-        margin-left: 1.8rem;
+        margin: 1rem auto;
     }
 
     .paan-box-body-h1{
