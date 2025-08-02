@@ -5,6 +5,7 @@
 
     .navbar{
         display: flex;
+        justify-content: space-between;
         flex-direction: row;
         z-index: 0;    
         position: fixed;
@@ -99,7 +100,7 @@
 
     .paan-box{
         background-color: green;
-        width: 58.7rem;
+        width: 94%;
         height: 10rem;
         border-radius: 1rem;
         padding-left: 2rem;
