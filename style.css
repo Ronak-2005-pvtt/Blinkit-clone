@@ -5,9 +5,8 @@
 
     .navbar{
         display: flex;
-        justify-content: space-between;
         flex-direction: row;
-        z-index: 0;    
+        z-index: 1000;    
         position: fixed;
         background-color: white;
         height: 4rem;
