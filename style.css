@@ -5,12 +5,11 @@
 
     .navbar{
         display: flex;
-        flex-direction: row;
         z-index: 1rem;    
         position: fixed;
         background-color: white;
         height: 4rem;
-        width: 100%;
+        width: 70rem;
     }
 
     .name{
@@ -69,6 +68,7 @@
         margin-top: 1rem;
         color: rgba(71, 71, 71,0.9);
         font-family:'Times New Roman', Times, serif;
+        
     }
 
     .cart-box{
@@ -162,7 +162,7 @@
     .box1{
         display: flex;
         justify-content: space-around;
-        margin-left: 1.7rem;
+        margin-left: 0.5rem;
     }
 
     .box1-card1{
