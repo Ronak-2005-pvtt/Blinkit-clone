@@ -9,7 +9,7 @@
         position: fixed;
         background-color: white;
         height: 4rem;
-        width: 250vh;
+        width: 68rem;   
     }
 
     .name{
@@ -100,7 +100,7 @@
 
     .paan-box{
         background-color: green;
-        width: 94%;
+        width: 59rem;
         height: 10rem;
         border-radius: 1rem;
         padding-left: 2rem;
